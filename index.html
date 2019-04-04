@@ -8,7 +8,7 @@
   <meta name="author" content="Julian Mak">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <style>
     body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     p.pubs {
@@ -16,10 +16,10 @@
         text-indent: -1.5em;
     }
     </style>
-  <body class="w3-light-grey w3-content" style="max-width:1200px">
+  <body class="w3-white w3-content" style="max-width:1200px">
       
     <!-- Sidebar/menu -->
-    <nav class="w3-sidebar w3-collapse w3-white" style="z-index:3;width:250px;" id="mySidebar"><br>
+    <nav class="w3-sidebar w3-collapse w3-light-grey" style="z-index:3;width:250px;" id="mySidebar"><br>
       <div class="w3-container">
         <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu"><i class="fa fa-remove"></i></a>
         <br>
@@ -29,17 +29,22 @@
       </div>
               
       <div class="w3-bar-block">
-        <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-orange"><i class="fa fa-home fa-fw w3-margin-right"></i>HOME</a>
+        <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-orange"><i class="fas fa-home fa-fw w3-margin-right"></i>HOME</a>
         <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a>
-        <a href="#research" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>RESEARCH</a>
-        <a href="#publications" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-paperclip fa-fw w3-margin-right"></i>PUBLICATIONS</a>
-        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+        <a href="research.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>RESEARCH</a>
+        <a href="publications.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-paperclip fa-fw w3-margin-right"></i>PUBLICATIONS</a>
+        <a href="teaching.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-chalkboard-teacher fa-fw w3-margin-right"></i>TEACHING</a>
+        <a href="travel.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-swimmer fa-fw w3-margin-right"></i>TRAVEL</a>
+        <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+        <br>
+        <a href="misc.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-music fa-fw w3-margin-right"></i>MISC</a>
       </div>
       
       <div class="w3-panel w3-large">
-        <a href="https://github.com/julianmak" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
-        <a href="https://twitter.com/henohenomoheju?lang=en" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
-        <a href="https://scholar.google.co.uk/citations?user=IW4IckoAAAAJ&hl=en" target="_blank"><i class="fa fa-book w3-hover-opacity"></i></a>
+        <a href="https://github.com/julianmak" target="_blank"><i class="fab fa-github w3-hover-opacity"></i></a>
+        <a href="https://twitter.com/henohenomoheju?lang=en" target="_blank"><i class="fab fa-twitter w3-hover-opacity"></i></a>
+        <a href="https://scholar.google.co.uk/citations?user=IW4IckoAAAAJ&hl=en" target="_blank"><i class="fab fa-google w3-hover-opacity"></i></a>
+        <a href="https://www.linkedin.com/in/julian-mak-a7b2258a/" target="_blank"><i class="fab fa-linkedin w3-hover-opacity"></i></a>
 <!--                <a href="https://www.instagram.com/gmacgilchrist/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>-->
       </div>
       
@@ -69,9 +74,19 @@
         <hr>
                     
         <p>
-        <h4><b>Recent news:</b></h4>
-        <li>In the process of porting over (and simplifying) my regular 
-        <a href="https://sites.google.com/site/julianclmak/home" target="_blank">webpage</a> (04 Apr 19)</li>
+        <h4><b>Recent news</b></h4>
+        <li>
+          <i>04 Apr 19</i>: In the process of porting over (and simplifying) my regular <a href="https://sites.google.com/site/julianclmak/home" target="_blank">webpage</a> 
+        </li>
+        
+        <br>
+        
+        <li>
+          Animation showing vertical component of vorticity from a NEMO custom model over the first 10 years (UNAGI, 10km resolution, beta plane)
+<!--          <a href="https://i.imgur.com/bT37Mo4.gifv" imageanchor="1" rel="nofollow" target="_blank">-->
+<!--            <img src="https://i.imgur.com/bT37Mo4.gif" style="width:100%" border="0" class="gif">-->
+<!--          </a>-->
+        </li>
         </p>
         <hr>
           
