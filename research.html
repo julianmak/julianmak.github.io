@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+  <link rel="stylesheet" href="./css_extra.css">
   <style>
     body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     p.pubs {
@@ -70,9 +71,85 @@
       <div class="w3-container w3-padding-64" style="margin-bottom:32px">
         <h4><b>Research overview</b></h4>
             
-        <p> to add something
+        <p> 
+          I am generally interested in fluid dynamical problems in rotating
+          stratified systems, motivated by geophysical and astrophysical systems
+          (mostly focusing on the ocean). I employ a variety of computational and
+          mathematical tools to tackle related problems. Areas I have worked on
+          and/or are particularly interested in are:
+          <ul>
+            <li>
+              Wave/eddy-mean flow interactions (global ocean circulation, eddy
+              parameterisation)
+            </li>
+            <li>
+              General Circulation Model developments
+            </li>
+            <li>
+              Inverse methods in oceanography
+            </li>
+            <li>
+              Fluid instabilities (in particular shear instabilities)
+            </li>
+            <li>
+              Tracer mixing/stirring
+            </li>
+          </ul>
+        </p>
+        
+        <p>
+          Numerical models play a very large role in my research though I am
+          relatively agnostic about which models to use. I go from bespoke
+          small-scale models (largely in MATLAB and Python) to global
+          circulation models (<a href="https://www.nemo-ocean.eu/"
+          targe="_blank" class="bodylink">NEMO</a> and <a
+          href="https://github.com/MITgcm/MITgcm" target="_blank"
+          class="bodylink">MITgcm</a>). The animation below is a sample
+          generated from NEMO (UNAGI, 10km resolution, beta plane channel).
+          <br>
+          <center>
+            <video style="width:100%" frameborder="0" controls>
+              <source src="https://i.imgur.com/bT37Mo4.mp4" type="video/mp4">
+            </video>
+          </center> 
         </p>
         <hr>
+        
+        <h4><b>Recent projects</b> (<a href="./research_archive.html"
+        targe="_blank" class="bodylink">archived projects<a>)</h4>
+        
+        <h5><a href="https://www.marshallocean.net/geometric/" target="_blank"
+        class="bodylink"> GEMOETRIC</a> (Geometry and Energetics of Ocean
+        Mesoscale Eddies and Their Rectified Impact on Climate)</h5>
+        <i>primary collaborators: <a href="https://www.marshallocean.net/"
+        target="_blank" class="bodylink">David Marshall</a> (Oxford), <a
+        href="https://www.maths.ed.ac.uk/~jmaddis2/" target="_blank"
+        class="bodylink">James Maddison</a> (Edinburgh) <a
+        href="https://staff.ucar.edu/users/bachman" target="_blank"
+        class="bodylink">Scott Bachman</a> (NCAR)</i>
+        
+        <p>
+          David has a concise summary of it on his <a
+          href="https://www.marshallocean.net/geometric/" target="_blank"
+          class="bodylink">webpage</a>. In its present form GEOMETRIC is, from a
+          practical point of view, a reworking of the well-known Gent-McWilliams
+          parameterisation for mesoscale eddies arising from baroclinic
+          instability. How the baroclinic eddies are represented in a numerical
+          model leads to large changes in the global ocean circulation through
+          changes to the Southern Ocean residual overturning circulation.
+          <div class="w3-row">
+          <div class="w3-col" style="width:50%">
+            <img src="./pics/research/spillhaus_SO.png" style="width:100%">
+            <center>(Spilhaus projection showing Southern Ocean as the <i>center
+            of the global oceans</i>)</center>
+          </div>
+          <div class="w3-col" style="width:50%">
+            <img src="./pics/research/MOC_schematic.png" style="width:100%">
+            <center>schematic taken from Burke et al. (2015) GRL</center>
+          </div>
+        </div>
+        </p>
+        
           
       </div>
         
