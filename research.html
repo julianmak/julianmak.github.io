@@ -86,7 +86,7 @@
               General Circulation Model developments
             </li>
             <li>
-              Inverse methods in oceanography
+              Inverse methods for oceanography
             </li>
             <li>
               Fluid instabilities (in particular shear instabilities)
@@ -121,35 +121,72 @@
         <h5><a href="https://www.marshallocean.net/geometric/" target="_blank"
         class="bodylink"> GEMOETRIC</a> (Geometry and Energetics of Ocean
         Mesoscale Eddies and Their Rectified Impact on Climate)</h5>
-        <i>primary collaborators: <a href="https://www.marshallocean.net/"
-        target="_blank" class="bodylink">David Marshall</a> (Oxford), <a
-        href="https://www.maths.ed.ac.uk/~jmaddis2/" target="_blank"
-        class="bodylink">James Maddison</a> (Edinburgh) <a
-        href="https://staff.ucar.edu/users/bachman" target="_blank"
-        class="bodylink">Scott Bachman</a> (NCAR)</i>
+        
+        <i><u>primary collaborators</u>: <a href="https://www.marshallocean.net/" target="_blank" class="bodylink">David Marshall</a> (Oxford), 
+        <a href="https://www.maths.ed.ac.uk/~jmaddis2/" target="_blank" class="bodylink">James Maddison</a> (Edinburgh),
+        <a href="https://staff.ucar.edu/users/bachman" target="_blank" class="bodylink">Scott Bachman</a> (NCAR)</i>
+        <br>
+        <i><u>papers</u>: <a href="https://doi.org/10.1175/JPO-D-18-0017.1" target="_blank" class="bodylink">MMMM18 JPO</a>,
+        <a href="http://dx.doi.org/10.1016/j.ocemod.2017.02.007" target="_blank" class="bodylink">MMMB17 OM</a>,
+        <a href="http://dx.doi.org/10.1016/j.ocemod.2016.12.004" target="_blank" class="bodylink">BMMM17 OM</a> </i>
         
         <p>
-          David has a concise summary of it on his <a
+          (David has a concise summary of it on his <a
           href="https://www.marshallocean.net/geometric/" target="_blank"
-          class="bodylink">webpage</a>. In its present form GEOMETRIC is, from a
-          practical point of view, a reworking of the well-known Gent-McWilliams
-          parameterisation for mesoscale eddies arising from baroclinic
-          instability. How the baroclinic eddies are represented in a numerical
-          model leads to large changes in the global ocean circulation through
-          changes to the Southern Ocean residual overturning circulation.
+          class="bodylink">webpage</a>.) In its present form GEOMETRIC is, from
+          a practical point of view, a reworking of the well-known
+          Gent-McWilliams parameterisation for mesoscale eddies arising from
+          baroclinic instability. How the baroclinic eddies are represented in a
+          numerical model can lead to large changes in the global ocean
+          circulation through changes to the Southern Ocean residual overturning
+          circulation.
+          
+          <br>
           <div class="w3-row">
-          <div class="w3-col" style="width:50%">
-            <img src="./pics/research/spillhaus_SO.png" style="width:100%">
-            <center>(Spilhaus projection showing Southern Ocean as the <i>center
-            of the global oceans</i>)</center>
+            <div class="w3-col" style="width:50%">
+              <img src="./pics/research/spillhaus_SO.png" style="width:100%">
+              <center><i>Spilhaus projection of the ocean</i></center>
+            </div>
+            <div class="w3-col" style="width:50%">
+              <img src="./pics/research/MOC_schematic.png" style="width:100%">
+              <center><i>schematic of SO RMOC taken from Burke et al. (2015),
+              GRL</i></center>
+            </div>
           </div>
-          <div class="w3-col" style="width:50%">
-            <img src="./pics/research/MOC_schematic.png" style="width:100%">
-            <center>schematic taken from Burke et al. (2015) GRL</center>
+          <br>
+          
+          I have implemented the GEOMETRIC scheme in various forms into a
+          hierarchy of numerical models, ranging from custom models of the
+          Southern Ocean to global ocean circulation models in <a
+          href="https://www.nemo-ocean.eu/" targe="_blank"
+          class="bodylink">NEMO</a>. In particular, we demonstrate the use of
+          GEOMETRIC leads to improvements of global circulation characteristics
+          to changed in surface wind forcing, notably the <b>eddy saturation</b>
+          and the <b>eddy compensation</b> phenomenon. This in turn have
+          implications for things like energy, carbon and oxygen cycles for
+          changes to tracer ventilation.
+          
+          <br>
+          <div class="w3-row">
+            <div class="w3-col" style="width:100%">
+              <img src="./pics/research/sector_GEOMETRIC.png" style="width:100%">
+              <center><i>Eddy saturation in a 3d sector model after Munday et
+              al. (2013), JPO</i></center>
+            </div>
           </div>
-        </div>
+          <br>
         </p>
+
+        <!-- break -->
+        <hr>
+        <!-- break -->
         
+        <h5>Gauge-invariant diagnoses of eddy diffusivity through inverse
+        methods</h5>
+        <i><u>primary collaborators</u>:         <a href="https://www.maths.ed.ac.uk/~jmaddis2/" target="_blank" class="bodylink">James Maddison</a> (Edinburgh),
+        <a href="https://www.marshallocean.net/" target="_blank" class="bodylink">David Marshall</a> (Oxford)</i>
+        <br>
+        <i><u>papers</u>: <a href="http://dx.doi.org/10.1016/j.ocemod.2016.06.006" target="_blank" class="bodylink">MMM16 OM</a></i>
           
       </div>
         
