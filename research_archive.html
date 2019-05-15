@@ -69,11 +69,158 @@
       
       <!-- body text -->
       <div class="w3-container w3-padding-64" style="margin-bottom:32px">
-        <h4><b>Archived projects</b></h4>
+        <h4>Archived projects</h4>
         
-        <p> to add something
-        </p>
         <hr>
+        
+        <h5><b>MHD shear flow instabilities</b></h5>
+        
+        <i><u>primary collaborators</u>: <a href="http://www1.maths.leeds.ac.uk/~dwh/" target="_blank" class="bodylink">David Hughes</a>, 
+        <a href="http://www1.maths.leeds.ac.uk/~sdg/" target="_blank" class="bodylink">Stephen Griffiths</a> (Leeds),
+        <a href="https://en-exact-sciences.tau.ac.il/profile/eyalh" target="_blank" class="bodylink">Eyal Heifetz</a> (Tel Aviv)</i>
+        <br>
+        <i><u>papers</u>: <a href="http://dx.doi.org/10.1103/PhysRevFluids.2.113701" target="_blank" class="bodylink">MGH17 PRF</a>,
+        <a href="http://dx.doi.org/10.1017/jfm.2015.718" target="_blank" class="bodylink">MGH16 JFM</a>,
+        <a href="http://dx.doi.org/10.1017/jfm.2015.47" target="_blank" class="bodylink">HNMU15 JFM</a> </i>
+        
+        <p>
+          As part of my PhD project with some spillover on to my first post-doc
+          I was primarily interested in the instability characteristics of shear
+          flow instabilities in the <b>magnetohydrodynamic</b> (MHD) system,
+          motivated by solar dynamics and the <a
+          href="https://en.wikipedia.org/wiki/Tachocline" target="_blank"
+          class="bodylink">tachocline</a> (in analogy with the ocean <a
+          href="https://en.wikipedia.org/wiki/Thermocline" target="_blank"
+          class="bodylink">thermocline</a>). I investigated extensively the
+          linear onset of shear instability (mostly of the <a
+          href="https://en.wikipedia.org/wiki/Kelvin%E2%80%93Helmholtz_instability"
+          target="_blank" class="bodylink">Kelvin-Helmholtz</a> type but in the
+          horizontal) and the nonlinear equilibration of the instability.
+       </p>   
+       
+       <p>
+          I analysed extensively using mathematical analyses, idealised profiles
+          and asymptotic analyses for the linear instability problem in a
+          <b>shallow water</b> type system in MHD. The main achievements are:
+          rigourous <b>semi-circle theorems</b> for the eigenvalues associated
+          with unstable modes; deriving and extending the <b>long-wave
+          asymptotic framework</b> and confirming it with numerical
+          calculations; propose the mechanistic interpretation for MHD shear
+          instability arising from <a>interactions of modified vorticity
+          waves</a> (cf. <a href="https://en.wikipedia.org/wiki/Rossby_wave"
+          target="_blank" class="bodylink">Rossby waves</a> in rotating
+          stratified fluid dynamics).
+          
+          <br>
+          <div class="w3-row">
+            <div class="w3-col" style="width:100%">
+              <img src="./pics/research/semicircle.png" style="width:100%">
+              <center><i>Double semi-circle theorem in the SWMHD system (cf.
+              Hughes & Tobias, 2001)</i></center>
+            </div>
+          </div>
+        </p>
+        
+        <p>
+          One aspect that I extended during my post-doc (though the resulting
+          paper actually arrived before my first PhD paper) was on the
+          mechanistic interpretation leading to MHD shear instability. Based on
+          the <b>Counter-propagating Rossby Wave</b> mechanism, we worked out
+          how the magnetic field modifies the interaction arising vorticity
+          anomalies and provide a unifying explanation for why unstable flows
+          can be stabilised by a magnetic field, and why some stable flows are
+          destablised by the magnetic field.
+          
+          <br>
+          <div class="w3-row">
+            <div class="w3-col" style="width:100%">
+              <img src="./pics/research/CRW.png" style="width:100%">
+              <center><i>Schematic of CRW mechanism: two outer vorticity waves
+              sandwiching a stabilising standing wave</i></center>
+            </div>
+          </div>
+        </p>
+        
+        <p>
+          I investigated the nonlinear evolution of MHD unstable flows. What is
+          well-known is that at large enough field strengths (but weak enough
+          such that the linear instability is only marginally modified, and the
+          initial energy ratios are small) the vortex roll up is disrupted by
+          MHD feedbacks, something we call <b>vortex disruption</b>. Our
+          contribution here is to provide a scaling argument based on some old
+          work in <b>flux expulsion</b> with a linear dependence on the magnetic
+          Reynolds number. The scaling was confirmed using a pseudo-spectral
+          code I wrote from scratch, which differs from some previous works
+          where the magnetic Reynolds numbers is not entirely well-defined
+          because of the use of grid-scale diffusivities. Here we provide an
+          additional argument the definition of "weak" is ambiguous, as a
+          large-scale field that is "weak" can be "strong" at small-scales
+          (which is the case here), which can effect on the large-scale
+          dynamics.
+          <br>
+          <center>
+            <video style="width:100%" frameborder="0" controls>
+              <source src="https://i.imgur.com/XXDLpSZ.mp4" type="video/mp4">
+            </video>
+            <i>Evolution of shear layer flow at different background magnetic
+            fields.</i>
+          </center>
+          <br>
+        </p>
+
+        <!-- break -->
+        <hr>
+        <!-- break -->
+        
+        <h5><b>Non-Boussinesq shear flow instabilities</b></h5>
+        
+        <i><u>primary collaborators</u>: <a href="https://en-exact-sciences.tau.ac.il/profile/eyalh" target="_blank" class="bodylink">Eyal Heifetz</a> (Tel Aviv)</i>
+        <br>
+        <i><u>papers</u>: <a href="http://dx.doi.org/10.1063/1.4928738" target="_blank" class="bodylink">HM15 PoF</a></i>
+        
+        <p>
+          This was a short project which is not dissimilar to the MHD CRW
+          mechanism above. Again we elucidate how stratification modifies the
+          CRW mechanism (effectively through baroclinic torque). The additional
+          physics we elucidate is the symmetry breaking aspect arising from not
+          making the <a
+          href="https://en.wikipedia.org/wiki/Boussinesq_approximation_(buoyancy)"
+          target="_blank" class="bodylink">Boussinesq approximation</a>, arising
+          from differences in pressure anomalies.
+          <br>
+          <div class="w3-row">
+            <div class="w3-col" style="width:100%">
+              <img src="./pics/research/CRW_nonbous.png" style="width:100%">
+              <center><i>Schematic of torque generation and asymmetry in the
+              resulting pressure anomalies</i></center>
+            </div>
+          </div>
+        </p>
+        
+        <!-- break -->
+        <hr>
+        <!-- break -->
+        
+        <h5><b>Geostrophic MHD turbulence</b></h5>
+        
+        <i><u>primary collaborators</u>: <a href="https://fapp.ucsd.edu/memberprofile_diamondph.html" target="_blank" class="bodylink">Pat Diamond</a> (UCSD)</i>
+        <br>
+        <i><u>papers</u>: none although there is a proceedings entry somewhere...</i>
+        
+        <p>
+          This was a short project that I carried out whilst I was a first year
+          PhD student at the (formerly) <a href="https://kspa.soe.ucsc.edu/"
+          target="_blank" class="bodylink">ISIMA</a> summer school at UCSC for
+          six weeks. Nothing major came from it (except a double semi-circle
+          theorem and some work in relation to the derivation of the magnetic
+          quasi-geostrophic equations based on work by <a
+          href="https://staff.ucar.edu/users/gilman" target="_blank"
+          class="bodylink">Peter Gilman</a> but it got me very interested in
+          rotating turbulence and set the ground work for a lot of my current
+          research to do with rotating stratified fluid dynamics. I might get
+          back to this given Peter Gilman has recently revisited
+          <b>magneto-baroclinic dynamics</b>, maybe.
+        </p>
           
       </div>
         
