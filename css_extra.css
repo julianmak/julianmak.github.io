@@ -20,8 +20,22 @@
   width: 75%;
 }
 
-a.bodylink {color:#20B2AA;}
+a.bodylink {color:rgb(171,133,33);}
 a.bodylink:link  {text-decoration: underline;}
 a.bodylink:visited {text-decoration: none;}
 a.bodylink:hover {text-decoration: none;}
 a.bodylink:active {text-decoration: none;}
+
+.ust-blue {
+  color: rgb(0,64,120);
+}
+
+.ust-mustard {
+  color: rgb(171,133,33);
+}
+
+h3 {color: rgb(0,64,120);}
+
+h4 {color: rgb(0,64,120);}
+
+h5 {color: rgb(0,64,120);}
