@@ -97,10 +97,11 @@
         
         <p>
           Numerical models play a very large role in my research though I am
-          relatively agnostic about which models to use. I go from bespoke
-          small-scale models (largely in MATLAB and Python) to global
-          circulation models (<a href="https://www.nemo-ocean.eu/"
-          targe="_blank" class="bodylink">NEMO</a> and <a
+          relatively agnostic about which models to use (the science normally
+          suggests one over the other). I go from bespoke small-scale models
+          (largely in MATLAB and Python) to global circulation models (<a
+          href="https://www.nemo-ocean.eu/" targe="_blank"
+          class="bodylink">NEMO</a> and <a
           href="https://github.com/MITgcm/MITgcm" target="_blank"
           class="bodylink">MITgcm</a>). The animation below is a sample
           generated from NEMO (UNAGI, 10km resolution, beta plane channel).
@@ -111,171 +112,8 @@
             </video>
           </center>
           <br>
-        </p>
-        
-        <h3>Opportunities</h3>
-        
-        <p>
-          I am generally interested in taking
-          <b>undergrads/postgrads/post-docs</b> in projects relating to the
-          above topics, or to supervise other proposed topics if you think I can
-          contribute in some way. Current active opportunities that are funded
-          will be advertised in the <a href="./index.html"
-          class="bodylink">FRONT PAGE</a>. I am ideally looking for someone who
-          is willing to be involved in some scientific programming (which is
-          itself a very useful transferable skill to have). A background in a
-          numerate subject (e.g. physics, mathematics, computer science,
-          engineering) will be highly desirable. Please do get in touch with me
-          (see <a href="./about.html" class="bodylink">ABOUT</a> for e-mail)
-          regarding possible opportunities, or some info relating to
-          working/studying in HK, or even just a chat about research ideas.
-        </p>
-        
-        <hr>
-        
-        <h3>Recent projects (<a href="./research_archive.html" targe="_blank" class="bodylink">archived projects<a>)</h3>
-        
-        <h4><b><a href="https://www.marshallocean.net/geometric/" target="_blank"
-        class="bodylink"> GEMOETRIC</a> (Geometry and Energetics of Ocean
-        Mesoscale Eddies and Their Rectified Impact on Climate)</b></h4>
-        
-        <i><u>primary collaborators</u>: <a href="https://www.marshallocean.net/" target="_blank" class="bodylink">David Marshall</a> (Oxford), 
-        <a href="https://www.maths.ed.ac.uk/~jmaddis2/" target="_blank" class="bodylink">James Maddison</a> (Edinburgh),
-        <a href="https://staff.ucar.edu/users/bachman" target="_blank" class="bodylink">Scott Bachman</a> (NCAR)</i>
-        <br>
-        <i><u>papers</u>: <a href="https://doi.org/10.1175/JPO-D-18-0017.1" target="_blank" class="bodylink">MMMM18 JPO</a>,
-        <a href="http://dx.doi.org/10.1016/j.ocemod.2017.02.007" target="_blank" class="bodylink">MMMB17 OM</a>,
-        <a href="http://dx.doi.org/10.1016/j.ocemod.2016.12.004" target="_blank" class="bodylink">BMMM17 OM</a> </i>
-        
-        <p>
-          (David has a concise summary of it on his <a
-          href="https://www.marshallocean.net/geometric/" target="_blank"
-          class="bodylink">webpage</a>.) In its present form GEOMETRIC is, from
-          a practical point of view, a reworking of the well-known
-          Gent-McWilliams parameterisation for mesoscale eddies arising from
-          baroclinic instability. How the baroclinic eddies are represented in a
-          numerical model can lead to large changes in the global ocean
-          circulation through changes to the Southern Ocean residual overturning
-          circulation.
-          
-          <br>
-          <div class="w3-row">
-            <div class="w3-col" style="width:50%">
-              <img src="./pics/research/spillhaus_SO.png" style="width:100%">
-              <center><i>Spilhaus projection of the ocean</i></center>
-            </div>
-            <div class="w3-col" style="width:50%">
-              <img src="./pics/research/MOC_schematic.png" style="width:100%">
-              <center><i>schematic of SO RMOC taken from Burke et al. (2015),
-              GRL</i></center>
-            </div>
-          </div>
-          <br>
-          
-          I have implemented the GEOMETRIC scheme in various forms into a
-          hierarchy of numerical models, ranging from custom models of the
-          Southern Ocean to global ocean circulation models in <a
-          href="https://www.nemo-ocean.eu/" targe="_blank"
-          class="bodylink">NEMO</a>. In particular, we demonstrate the use of
-          GEOMETRIC leads to improvements of global circulation characteristics
-          to changed in surface wind forcing, notably the <b>eddy saturation</b>
-          and the <b>eddy compensation</b> phenomenon. This in turn have
-          implications for things like energy, carbon and oxygen cycles for
-          changes to tracer ventilation, which are currently under
-          investigation. Current research on constraining unknown parameters is
-          also tackled through inverse problem approaches.
-          
-          <br>
-          <div class="w3-row">
-            <div class="w3-col" style="width:100%">
-              <img src="./pics/research/sector_GEOMETRIC.png" style="width:100%">
-              <center><i>Eddy saturation in a 3d sector model after Munday et
-              al. (2013), JPO</i></center>
-            </div>
-          </div>
-          <br>
-        </p>
-
-        <!-- break -->
-        <hr>
-        <!-- break -->
-        
-        <h4><b>Gauge-invariant diagnoses of eddy diffusivity through inverse
-        methods</b></h4>
-        <i><u>primary collaborators</u>: <a href="https://www.maths.ed.ac.uk/~jmaddis2/" target="_blank" class="bodylink">James Maddison</a> (Edinburgh),
-        <a href="https://www.marshallocean.net/" target="_blank" class="bodylink">David Marshall</a> (Oxford)</i>
-        <br>
-        <i><u>papers</u>: <a href="http://dx.doi.org/10.1016/j.ocemod.2016.06.006" target="_blank" class="bodylink">MMM16 OM</a></i>
-        
-        <p>
-          Part of the problem in eddy parameterisation is on how one specifies
-          the <b>eddy diffusivities</b> or the <b>eddy transport
-          coefficients</b>. As a way to constrain the theory one way is to
-          employ high resolution numerical simulation as model truths and
-          diagnose the coefficients accordingly. However there is the technical
-          problem of <b>gauge freedom</b>, where the eddy forcing is invariant
-          up to a rotational term, but the diagnoses of the coefficients cares
-          about this rotational term. Here we employ an inverse method approach
-          (cf. 3DVar in variational data assimilation) and make use of the
-          <b>eddy force function</b> to bypass problems to do with noisy data
-          and gauge freedom. The calculations were done in <a
-          href="https://fenicsproject.org/" target="_blank"
-          class="bodylink">FEniCS</a> to make use of the <b>Automatic Code
-          Generation</b> capabilities for forming and solving the optimisation
-          problem.
-          
-          <br>
-          <div class="w3-row">
-            <div class="w3-col" style="width:100%">
-              <img src="./pics/research/optimisation.png" style="width:100%">
-              <center><i>Diagnoses of the GM coefficient in a three-layer
-              model</i></center>
-            </div>
-          </div>
-          <br>
-          
-          There are some suggestions of extending this to related plasma
-          turbulence problems (in collaboration with <a
-          href="https://kyushu-u.pure.elsevier.com/en/persons/yusuke-kosuga"
-          target="_blank" class="bodylink">Yusuke Kosuga</a> at Kyushu), or be
-          useful in some machine learning problems, watch this space maybe.
-        </p>
-
-        <!-- break -->
-        <hr>
-        <!-- break -->
-        
-        <h4><b>Nonlinear equilibration of baroclinic lifecycles</b></h4>
-        <i><u>primary collaborators</u>: <a href="https://www.tau.ac.il/~harnik/" target="_blank" class="bodylink">Nili Harnik</a>,
-        <a href="https://en-exact-sciences.tau.ac.il/profile/eyalh" target="_blank" class="bodylink">Eyal Heifetz</a> (Tel Aviv),
-        <a href="http://www-vortex.mcs.st-andrews.ac.uk/~dgd/" target="_blank" class="bodylink">David Dritschel</a> (St. Andrews)</i>
-        <br>
-        <i><u>papers</u>: none yet...</i>
-        
-        <p>
-          <a href="https://en.wikipedia.org/wiki/Baroclinity" target="_blank"
-          class="bodylink">Baroclinic instability</a> is ubiquitous in rotating
-          stratified systems (e.g. giant gas planets, Earth's atmosphere and
-          ocean) and its associated wave/eddy-mean interaction has consequences
-          for the modelling of sub-grid physics (e.g. GEOMETRIC project). While
-          we understand the instability characteristics fairly well, to my mind
-          there are a few details to do with the nonlinear development and
-          equilibration that can be sharpened. We are investigating various
-          aspects of baroclinic lifecycles in a simple two-layer
-          quasi-geostrophic system using the <a
-          href="http://www-vortex.mcs.st-and.ac.uk/software.html"
-          target="_blank" class="bodylink">CASL/CLAM</a> code developed by David
-          Dritschel.
-          
-          <br>
-          <center>
-            <video style="width:100%" frameborder="0" controls>
-              <source src="https://i.imgur.com/bivgPl5.mp4" type="video/mp4">
-            </video>
-            <i>Simulation showing potential vorticity in upper and lower layer
-            of equal depth</i>
-          </center>
-          <br>
+          Please go to the <a href="https://jmak-omfg.github.io/"
+          target="_blank" class="bodylink">GROUP WEBPAGE</a> for more.
         </p>
           
       </div>
