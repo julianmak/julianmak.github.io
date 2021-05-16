@@ -1,0 +1,532 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{Julian Mak}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {fluids, oceanography, mathematics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name -- CV}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+%=================================================================
+\begin{tabular}{lll}
+  Assistant Professor & Email: & {\tt jclmak@ust.hk} \\
+  Department of Ocean Sciences & Homepage: & \href{https://julianmak.github.io/index.html}{\tt
+https://julianmak.github.io/index.html} \\
+  Hong Kong University of Science and Technology & Tel: & +852 3469 2823
+\end{tabular}
+%=================================================================
+\section*{Research interests}
+\begin{itemize}
+\item Geophysical and astrophysical fluid dynamics
+\begin{itemize}
+	\item[--] Wave/eddy-mean flow interaction
+	\item[--] Baroclinic dynamics/turbulence
+	\item[--] Development of numerical ocean models
+	\item[--] Applied and computational mathematics (particularly inverse methods)
+	\item[--] Magnetohydrodynamics
+\end{itemize}
+\end{itemize}
+%=================================================================
+
+\section*{Education}
+%--------------------------------------------------------------
+\begin{itemize}
+
+\item PhD Applied Mathematics, University of Leeds (Oct 2009 -- Sep 2013)
+\begin{itemize}
+	\item[--] Thesis title: \textit{Shear instabilities in shallow-water
+	magnetohydrodynamics}\\
+	supervised by David W. Hughes and Stephen D. Griffiths\\
+	examined by David G. Dritschel and Chris A. Jones
+\end{itemize}
+%--------------------------------------------------------------
+ \item MMath Mathematics, University of Durham, (First class; Oct 2005 -- Jul 2009)
+\begin{itemize}
+  	\item[--] MMath dissertation: \textit{Hydrodynamic stability of Newtonian
+  	and non-Newtonian fluids}\\
+  	supervised by Miguel A. Moyers-Gonzalez
+\end{itemize}
+%--------------------------------------------------------------
+\end{itemize}
+
+%=================================================================
+
+\section*{Research experience}
+
+%--------------------------------------------------------------
+\begin{itemize}
+
+\item \textbf{Assistant professor} (cf lecturer in the UK system; Jul 2019 -- to date)\\
+Department of Ocean Science, Hong Kong University of Science and Technology
+
+\item \textbf{Post-doctoral researcher} (Oct 2017 -- May 2019)\\
+AOPP, Department of Physics, University of Oxford\\
+-- working primarily with David P. Marshall (PI) and James R. Maddison (Co-I) 
+
+\item \textbf{Post-doctoral researcher} (Sep 2014 -- Sep 2017)\\
+School of Mathematics, University of Edinburgh\\
+-- working with James R. Maddison (PI) and David P. Marshall (Co-I)
+
+\item \textbf{Post-doctoral researcher} (Oct 2013 -- Sep 2014)\\
+Department of Geophysics \& Planetary Sciences, Tel Aviv University\\
+-- working with Nili Harnik and Eyal Heifetz
+
+\item \textbf{PhD student}  (Oct 2009 -- Sep 2013)\\
+Department of Applied Mathematics, University of Leeds
+	
+\item \textbf{ISIMA 2010 student research fellow} (Jul -- Aug 2010)\\
+University of California, Santa Cruz\\
+-- \textit{Geostrophic turbulence under the influence of a magnetic field},
+supervised by Patrick H. Diamond
+	
+\item \textbf{MMath student} (Oct 2008 -- May 2009)\\
+Department of Mathematics Sciences, University of Durham 
+	
+\item \textbf{EPSRC vacation studentship} (Jul -- Sep 2008)\\
+Department of Mathematical Sciences, University of Durham\\
+-- \textit{Hydrodynamic stability of Kolmogorov flows on the sphere},
+supervised by Djoko Wirosoetisno
+	
+%--------------------------------------------------------------
+\end{itemize}
+
+%=================================================================
+\section*{Publications}
+%-----------------------------------------------------------------
+\subsection*{Journal Articles}
+
+($\dagger$ denotes corresponding author)
+
+\begin{itemize}
+
+\item[*] \underline{J. Mak}$^{\dagger}$, N. Harnik, D. G. Dritschel \& E. Heifetz
+(in prep.)\\
+\textit{Baroclinic spindown in a two-layer quasi-geostrophic system:
+equilibration to marginally stable states}
+
+\item[*] J. R. Maddison$^{\dagger}$, D. P. Marshall \& \underline{J. Mak} (in prep.)\\
+\textit{A simple reduced order model for eddy saturation}
+
+\item[*] \underline{J. Mak}$^{\dagger}$, D. P. Marshall, G. Madec \& J. R. Maddison
+(in prep.)\\
+\textit{Acute sensitivity of global ocean circulation to eddy energy dissipation time-scale}
+
+\item[*] Y. Y. Cheung, S. Cheung$^{\dagger}$, \underline{J. Mak}, K. Liu, X. Xia, X. Zhang \& H. Liu$^{\dagger}$ (accepted)\\
+\textit{Distinct interaction effects of warming and anthropogenic input on
+diatoms and dinoflagellates in an urbanized estuarine ecosystem}\\
+Global Change Biology
+
+\item[9.] \underline{J. Mak}$^{\dagger}$, J. R. Maddison, D. P. Marshall \& D. R. Munday
+(2018)\\
+\textit{Implementation of a geometrically informed and energetically constrained
+mesoscale eddy parameterization in an ocean circulation model}\\
+Journal of Physical Oceanography, \textbf{48}, 2363--2382
+
+\item[8.] \underline{J. Mak}$^{\dagger}$, S. D. Griffiths \& D. W. Hughes
+(2017)\\
+\textit{Vortex disruption by magnetohydrodynamic feedback}\\
+Physical Review Fluids, \textbf{2}, 113701
+
+\item[7.] \underline{J. Mak}$^{\dagger}$, D. P. Marshall, J. R. Maddison \& S. D. Bachmann
+(2017)\\
+\textit{Emergent eddy saturation from an energy constrained eddy parameterisation}\\
+Ocean Modelling, \textbf{112}, 125--138
+
+\item[6.] S. D. Bachman$^{\dagger}$, D. P. Marshall, J. R. Maddison and \underline{J. Mak}
+(2017)\\
+\textit{Evaluation of a scalar eddy diffusivity based on geometric constraints}\\
+Ocean Modelling, \textbf{109}, 44--54
+
+\item[5.] \underline{J. Mak}$^{\dagger}$ , J. R. Maddison \& D. P. Marshall
+(2016)\\
+\textit{A new gauge-invariant method for diagnosing eddy diffusivities}\\
+Ocean Modelling, \textbf{104}, 252--268
+
+\item[4.] \underline{J. Mak}$^{\dagger}$ , S. D. Griffiths \& D. W. Hughes
+(2016)\\
+\textit{Shear flow instabilities in shallow-water magnetohydrodynamics}\\
+Journal of Fluid Mechanics, \textbf{788}, 767--796
+
+\item[3.] E. Heifetz \& \underline{J. Mak}$^{\dagger}$ (2015)\\
+\textit{Stratified shear flow instabilities in the non-Boussinesq regime}\\
+Physics of Fluids, \textbf{27}, 086601, 1--15
+
+\item[2.] E. Heifetz, \underline{J. Mak}$^{\dagger}$, J. Nycander \& O. M.
+Umurhan (2015)\\
+\textit{Interacting vorticity waves as an instability mechanism for
+magnetohydrodynamic shear instabilities}\\
+Journal of Fluid Mechanics, \textbf{767}, 199--225
+
+\item[1.] M. A. Moyers-Gonzalez$^{\dagger}$ , T. Burghlea \& \underline{J. Mak}
+(2011)\\
+\textit{Linear stability analysis for plane-Poiseuille flow of an
+elastoviscoplastic fluid with internal microstructure at large Reynolds
+Number}\\
+Journal of Non-Newtonian Fluid Mechanics, \textbf{166}, 515-531
+\end{itemize}
+
+\subsection*{Reports, proceedings and grey literature}
+\begin{itemize}
+
+\item[E.] D. P. Marshall$^{\dagger}$, J. R. Maddison, \underline{J. Mak}, S. D. Bachman \& D. R. Munday (2020)\\
+\textit{GEOMETRIC: Geometry and energetics of ocean mesoscale eddies and their representation in climate models}\\
+CLIVAR exchanges, \textbf{77}, 17-22 (joint special edition on ``Sources and Sinks
+of Ocean Mesoscale Eddy energy'')
+
+\item[D.] E. Heifetz \& \underline{J. Mak}$^{\dagger}$ (2014)\\
+\textit{Magnetohydrodynamic shear instabilities arising from interacting
+vorticity waves}\\
+Advances in Fluid Mechanics X (Proceedings of AFM2014), 371-381
+
+\item[C.] \underline{J. Mak}$^{\dagger}$ (2013)\\
+\textit{Shear instabilities in shallow-water magnetohydrodynamics}\\
+PhD thesis, Department of Applied Mathematics, University of Leeds
+
+\item[B.] \underline{J. Mak}$^{\dagger}$ (2011)\\
+\textit{Geostrophic turbulence in the MHD regime}\\
+report / proceedings for ISIMA 2010 (see ISIMA website)
+
+\item[A.] \underline{J. Mak}$^{\dagger}$ (2009)\\
+\textit{Hydrodynamic stability of Newtonian and non-Newtonian fluids}\\
+MMath dissertation, Department of Mathematical Sciences, University of Durham
+\end{itemize}
+
+%=================================================================
+\section*{Grants}
+
+\begin{itemize}
+
+%\item[--] \textit{partial res} (???)\\
+%HKD 1,200,000 (exclusive of overheads), qingdao, 36 months
+
+%\item[--] \textit{turbulent dispersion} (26300020)\\
+%HKD 900,000 (exclusive of overheads), HKB, 36 months
+
+\item[--] \textit{Constraining uncertain parameters in IPCC-class global ocean
+circulation models using inverse methods} (26300020)\\
+HKD 705,710 (exclusive of overheads), HKRGC Early Career Scheme, 36 months
+
+\end{itemize}
+
+%=================================================================
+\section*{Research related activities}
+
+%-----------------------------------------------------------------
+\subsection*{Selected conference/seminar presentations}
+\begin{itemize}
+
+\item[--] \textit{Eddy force functions}\\
+Presentation at The 2019 Macau Forum for Planetary Sciences, State Key
+Laboratory of Lunar and Planetary Sciences, Macau, Nov 2019
+
+\item[--] \textit{Role of energetically constrained turbulent transport
+coefficients in ocean climatology}\\
+Invited speaker at AAPPS-DPP2019 Plasma Physics conference, Hefei, Nov 2019
+
+\item[--] \textit{Global ocean circulation and its key dependence on eddy energy dissipation}\\
+Seminar at the National Centre for Oceanography, Liverpool, Jun 2019
+
+\item[--] \textit{ECCO summer school}\\
+Friday Harbour Labs, University of Washington, May 2019
+
+\item[--] \textit{Global ocean circulation and its key dependence on eddy energy dissipation}\\
+NCAR, Boulder CO, May 2019
+
+\item[--] \textit{Ocean storms and its representation in ocean climate models}\\
+Seminar at the Department of Ocean Sciences, HKUST, Hong Kong, Dec 2018
+
+\item[--] \textit{The GEOMETRIC parameterisation}\\
+Seminar at the National Centre for Oceanography, University of Southampton, Oct
+2018
+
+\end{itemize}
+
+%-----------------------------------------------------------------
+\subsection*{Selected professional activities}
+\begin{itemize}
+
+\item[--] Referee for: J. Fluid Mech., Phys. Fluids, Phys. Lett. A, J. Phys.
+Oceanogr., Phys. Plasmas, Astrophys. J., J. Geophys. Res: Oceans, Ocean Modell.,
+J. Adv. Model. Earth Syst.
+
+\item[--] departmental seminar organiser, International Research Enrichment
+track co-ordinator, MSc committee, UG committee, Student Mentoring Task Force
+(Dept. of Ocean Science, HKUST)
+
+\item[--] Reading group member for the Athena Swan Silver application, post-doc
+wiki administrator, journal club \textit{Waves \& Mean Flows} organiser (School
+of Mathematics, University of Edinburgh)
+
+\end{itemize}
+
+%=================================================================
+
+\section*{Awards}
+\begin{itemize}
+	\item[--] ISIMA 2010 student fellowship at UCSC (\$1,000, Jul -- Aug 2010)
+	\item[--] NORDITA winter school: Dynamos, above, below, and in the
+	laboratory (\textsterling600, Jan 2010)
+	\item[--] STFC DTG studentship: tuition fees, stipend and research costs
+	(ST/F006934/1; Oct 2009 -- Mar 2012)
+	\item[--] Further Maths Network student poster prize, \textsterling200 (May
+	2009)
+	\item[--] EPSRC summer vacation studentship, \textsterling2,000 (Jul-Sep
+	2008)
+	\item[--] TDA (part of the Department of Education), student associate
+	scheme, \textsterling600 (Jan 2007)
+\end{itemize}
+
+%=================================================================
+
+\section*{Teaching Activities}
+
+%-----------------------------------------------------------------
+\subsection*{Research mentoring}
+
+\begin{tabular}{llr}
+  Gautam KUMAR            & PDRA  & Mar 2021 -- now\\
+  \\
+\end{tabular}
+
+\begin{tabular}{llr}
+  YAN Feier               & PhD   & Feb 2021 -- now\\
+  NA Yongsu               & PhD   & Sep 2020 -- now\\
+  RUAN Xi                 & PhD   & Sep 2020 -- now\\
+  LIU Yongqi              & PhD   & Sep 2020 -- now\\
+  LEE Han Seul            & PhD   & Sep 2019 -- now\\
+  \\
+\end{tabular}
+
+\begin{tabular}{llr}
+  Chinmayee MALLICK       & RA    & Apr 2020 -- Mar 2021\\
+  Floriane Oc\'eane SUDRE & RA    & Mar 2020 -- Aug 2020\\
+  \\
+\end{tabular}
+
+\begin{tabular}{llr}
+  JIANG Jinxiao           & MSc               & Sep 2020 -- May 2021\\
+  Ellie ONG               & Visiting scholar  & Oct 2020 -- Jan 2021\\
+  RUAN Xi                 & MSc               & Feb 2020 -- Jul 2020\\
+  LEE Han Seul            & MPhys (at Oxford) & Jan 2017 -- Sep 2017\\
+  \\
+\end{tabular}
+  
+\begin{tabular}{llr}
+  Rachel TSOI             & BSc (Capstone)        & Sep 2020 -- May 2021\\
+  Jolie NG                & BSc (Capstone)        & Sep 2020 -- May 2021\\
+  Nick KANG               & BSc (UROP)            & Jul 2020 -- Sep 2020\\
+  Haruki SAEGUSA          & BSc (UROP, UG helper) & Jul 2020 -- Sep 2020, Jun 2021 -- now\\
+  Kathryn CHOW            & BSc (Capstone)        & Feb 2020 -- Jul 2020\\
+  \\
+\end{tabular}
+
+%-----------------------------------------------------------------
+\subsection*{Hong Kong University of Science and Technology (2019 to date)}
+\begin{itemize}
+\item Instructor (I), with rough estimate of
+student numbers
+\begin{itemize}
+  \item[21/22:] Descriptive Physical Oceanography (2nd year, I, 25), Data
+  Analysis in Ocean Science, (3rd/4th year, I, 20), Physical Oceanography
+  (3rd/4th year, I, 10)
+  \item[20/21:] Postgraduate Seminar (PG, Co-I, 40), Global Climate Change (3rd
+  year, Co-I, 30), Descriptive Physical Oceanography (2nd year, I, 40)
+  \item[19/20:] Postgraduate Seminar (PG, Co-I, 40), Global Climate Change (3rd
+  year, Co-I, 30)
+\end{itemize}
+\end{itemize}
+
+%-----------------------------------------------------------------
+\subsection*{University of Edinburgh (2014 to 2017)}
+\begin{itemize}
+\item Instructor (I), Teaching assistant (T), assignment marker (M), with rough estimate of
+student numbers
+\begin{itemize}
+  \item[16/17:] Mathematics in Action : Mathematics of Climate (honours, I, 30)
+	\item[15/16:] Several variable calculus and differential equations
+	(pre-honours, TM, 15), Computing and numerics (pre-honours, TM, 60)
+	\item[14/15:] Computing and numerics (pre-honours, TM, 60)
+\end{itemize}
+\end{itemize}
+
+%-----------------------------------------------------------------
+\subsection*{University of Leeds (2009 to 2013)}
+\begin{itemize}
+\item Teaching assistant (T), assignment marker (M), with rough estimate of
+student numbers
+\begin{itemize}
+	\item[12/13:] 1H Mathematics 1 (TM, 10), introduction to linear algebra (TM,
+	10, exam marking, 85); 2H calculus of variations (TM, 30)
+	\item[11/12:] 2H Fourier series, PDEs and transforms (TM, 30), calculus of
+	variations (M, 30), multiple integrals and vector calculus (M, 30)
+	\item[10/11:] 1H numbers and vectors (TM, 20), modelling and investigations
+	(TM, 60 over the semester); 2H Fourier series, PDEs and transforms (TM, 30),
+	mathematics for Geoscience (M, 15), introduction to optimisation (M, 40),
+	calculus of variations (M, 30), multiple integrals and vector calculus (M,
+	30)
+	\item[09/10:] 1H linear algebra, calculus, differential equations and
+	mechanics (TM, 7); 2H Introduction to optimisation (M, 40); 3/4H
+	Hydrodynamic stability (M, 15).
+\end{itemize}
+\end{itemize}
+
+%-----------------------------------------------------------------
+
+\subsection*{University of Durham (2008-2009)}
+\begin{itemize}
+\item Assignment marker
+\begin{itemize}
+	\item[--] Single maths courses: complex analysis (2H, 25), analysis in many
+	variables (2H, 25), algebra and number theory (2H, 25)
+\end{itemize}
+\end{itemize}
+
+%-----------------------------------------------------------------
+
+\subsection*{Training and development agency for schools (2006-2007)}
+\begin{itemize}
+	\item Student associate teachers (for Durham and Lincolnshire county
+	council, UK)
+\begin{itemize}
+	\item[--] Government scheme to promote higher education and outreach to
+	secondary school students and to provide teaching experience for student
+	associates. Acted as academic and pastoral mentor at a school listed as
+	`deprived', as well as a successful school.
+\end{itemize}
+\end{itemize}
+
+%=================================================================
+\section*{Misc.}
+\begin{itemize}
+	\item[--] Fluent in English and Cantonese, basic Mandarin Chinese (can read
+	both traditional and simplified scripts), basic French.
+	\item[--] Experience with Python, FORTRAN 90/95, NEMO, MATLAB, MITgcm, Maple,
+	\LaTeX, UNIX systems
+\end{itemize}
+%=================================================================
+\section*{Referees}
+See separate document for referee contact details.
+%\begin{enumerate}
+%	\item Prof. David Hughes (principal supervisor)\\
+%	Dept. of Applied Mathematics,\\
+%	University of Leeds,\\
+%	Woodhouse Lane, Leeds,\\
+%	UK. LS2 9JT\\
+%	(e-mail) \verb|dwh@maths.leeds.ac.uk|\\
+%	(tel) +44 1133 435 105\\
+%	
+%	\item Dr. Stephen Griffiths (co-supervisor)\\
+%	Dept. of Applied Mathematics,\\
+%	University of Leeds,\\
+%	Woodhouse Lane, Leeds,\\
+%	UK. LS2 9JT\\
+%	(e-mail) \verb|sdg@maths.leeds.ac.uk|\\
+%	(tel) +44 1133 435 186\\
+%	
+%	\item Dr. Andrew Baczkowski (PG Teaching Co-ordinator)\\
+%	Dept. of Applied Mathematics,\\
+%	University of Leeds,\\
+%	Woodhouse Lane, Leeds,\\
+%	UK. LS2 9JT\\
+%	(e-mail) \verb|a.j.baczkowski@leeds.ac.uk|\\
+%	(tel) +44 1133 435 156\\
+%
+%	\item Dr. Nili Harnik (post-doc supervisor)\\
+%	Department of Geophysics \& Planetary Sciences,\\
+%	Tel Aviv University,\\
+%	Tel Aviv, 69978,\\
+%	Israel\\
+%	(e-mail) \verb|harnik@tau.ac.il|\\
+%	(tel) +972 3 640 6359\\
+%
+%	\item Prof. Eyal Heifetz (post-doc supervisor)\\
+%	Department of Geophysics \& Planetary Sciences,\\
+%	Tel Aviv University,\\
+%	Tel Aviv, 69978,\\
+%	Israel\\
+%	(e-mail) \verb|eyalh@post.tau.ac.il|\\
+%	(tel) +972 3 640 7048\\
+%	
+%	\item Prof. David Dritschel (PhD examiner)
+%	School of Mathematics and Statistics,\\
+%	University of St Andrews,\\
+%	North Haugh, St Andrews,\\
+%	KY16 9SS,
+%	Scotland\\
+%	(e-mail) \verb|dgd@mcs.st-and.ac.uk|\\
+%	(tel) +44 1334 463 721\\
+%\end{enumerate}
+
+
+\end{document}
