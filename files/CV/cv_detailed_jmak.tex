@@ -13,6 +13,7 @@
 
 \usepackage{hyperref}
 \usepackage{geometry}
+\usepackage{tabularx}
 
 % Comment the following lines to use the default Computer Modern font
 % instead of the Palatino font provided by the mathpazo package.
@@ -163,27 +164,36 @@ supervised by Djoko Wirosoetisno
 %-----------------------------------------------------------------
 \subsection*{Journal Articles}
 
-($\dagger$ denotes corresponding author, bold denotes members from group)
+($\dagger$ denotes corresponding author(s), bold denotes members from group)
 
 \begin{itemize}
 
+\item[*] \textbf{J. Mak}$^{\dagger}$, J. R. Maddison, D. P. Marshall, \textbf{X. Ruan} \& Y. Wang (in prep. for J. Adv. Model. Earth Syst.)\\
+\textit{A split field approach for regulating parameterization of oceanic mesoscale eddy effects}
 
-\item[*] \textbf{F. E. Yan}$^{\dagger}$, \textbf{J. Mak} \& \textbf{Y. Na} (in prep. for J. Adv. Model. Earth Syst.)\\
+\item[*] \textbf{F. E. Yan}$^{\dagger}$, J. R. Maddison, \textbf{J. Mak}$^{\dagger}$ \& \textbf{Y. Na} (in prep. for J. Adv. Model. Earth Syst.)\\
 \textit{Machine learning of baroclinic turbulence: the role of rotational fluxes}
 
-\item[*] \textbf{X. Ruan}$^{\dagger}$, D. Couespel, M. L\'evy \& \textbf{J. Mak} (in prep. for Ocean Modell.)\\
+\item[*] \textbf{X. Ruan}$^{\dagger}$, D. Couespel, M. L\'evy, \textbf{J. Mak}$^{\dagger}$ \& Y. Wang (in prep. for Ocean Modell.)\\
 \textit{Assessing the influence of mesoscale turbulence parameterizations on net primary production in ocean models}
 
-\item[*] \textbf{J. Mak}$^{\dagger}$, A. Avdis, T. David, \textbf{H. S. Lee}, \textbf{Y. Na}, Y. Wang \& \textbf{F. E. Yan}
-(in prep for J. Adv. Model. Earth Syst.)\\
-\textit{On constraining the mesoscale eddy energy residence time}
-
-\item[*] \textbf{J. Mak}$^{\dagger}$, \textbf{E. Ong}, N. Harnik, D. G. Dritschel \& E. Heifetz (in prep.)\\
-\textit{Baroclinic spindown in a two-layer quasi-geostrophic system:
-equilibration to marginally stable states}
+%\item[*] \textbf{J. Mak}$^{\dagger}$, \textbf{E. Ong}, N. Harnik, D. G. Dritschel \& E. Heifetz (in prep.)\\
+%\textit{Baroclinic spindown in a two-layer quasi-geostrophic system:
+%equilibration to marginally stable states}
 
 \item[*] J. R. Maddison$^{\dagger}$, D. P. Marshall \& \textbf{J. Mak} (in prep. for J. Phys. Oceanogr.)\\
 \textit{A simple reduced order model for eddy saturation}
+
+\item[*] E. Heifetz$^{\dagger}$, L. R. M. Maas, \textbf{J. Mak} \& I. Pomerantz (submitted to Phys. of Fluids)\\
+\textit{Inertio-gravity Poincare waves and the quantum relativistic Klein-Gordon equation, near-inertio waves and the non-relativistic Schrodinger equation}
+
+\item[*] H. Wei, Y. Wang$^{\dagger}$, A. L. Stewart \& \textbf{J. Mak}
+(in revision with J. Adv. Model. Earth Syst.)\\
+\textit{Scalings for eddy buoyancy fluxes across prograde shelf/slope fronts}
+
+\item[*] \textbf{J. Mak}$^{\dagger}$, A. Avdis, T. David, \textbf{H. S. Lee}, \textbf{Y. Na}, Y. Wang \& \textbf{F. E. Yan}
+(in revision with J. Adv. Model. Earth Syst.)\\
+\textit{On constraining the mesoscale eddy energy residence time}
 
 \item[13.] \textbf{J. Mak}$^{\dagger}$, D. P. Marshall, G. Madec \& J. R. Maddison
 (2022)\\
@@ -283,24 +293,29 @@ MMath dissertation, Department of Mathematical Sciences, University of Durham
 
 \begin{itemize}
 
-\item[--] \textit{Parameterization in grey zone ocean general circulation models}\\
-1st Nov 2020 -- 31st Oct 2021\\
-HKD 400,000 (exclusive of overheads)\\
-Center for Ocean Research in Hong Kong and Macau
+\item[--] \textit{Numerical modelling of the influence of secondary surface roughness on urban turbulence and ventilation}\\
+1st July 2021 --- ongoing (Co-I, then PI)\\
+HKD 391,015 (exclusive of overheads), 36 months\\
+HKRGC General Research Fund (11308021)
 
 \item[--] \textit{Inferring South China Sea abyssal upwelling via a consistent regional state estimate}\\
-1st July 2021 --- ongoing\\
+1st July 2021 --- ongoing (PI, Co-I: Matt Mazloff)\\
 HKD 598,015 (exclusive of overheads), 36 months\\
 HKRGC General Research Fund (16304021)
 
+\item[--] \textit{Parameterization in grey zone ocean general circulation models}\\
+1st Nov 2020 -- 31st Oct 2022 (PI)\\
+HKD 400,000 (exclusive of overheads)\\
+Center for Ocean Research in Hong Kong and Macau
+
 \item[--] \textit{Probing circulation influences on pollution dispersion}\\
-1st Jan 2020 -- 31st Dec 2022\\
+1st Jan 2020 -- 31st Dec 2022 (PI)\\
 HKD 700,000 (exclusive of overheads)\\ 
 Hong Kong Branch Collaborative Research Fund and Operation Fund
 
 \item[--] \textit{Constraining uncertain parameters in IPCC-class global ocean
 circulation models using inverse methods}\\
-1st July 2020 -- ongoing\\
+1st July 2020 -- ongoing (PI)\\
 HKD 705,710 (exclusive of overheads), 36 months \\
 HKRGC Early Career Scheme (26300020)
 
@@ -313,10 +328,16 @@ HKRGC Early Career Scheme (26300020)
 \subsection*{Selected conference/seminar presentations}
 \begin{itemize}
 
+\item[--] \textit{Physical and biogeochemical responses in ocean general circulation models: coarse resolution models + diffusive closures}\\
+Presentation at the Ocean Modelling Group meeting, Imperial College / Natural History Museum / Royal Geographical Society, London, Sep 2022
+
+\item[--] \textit{Machine learning of geostrophic turbulence: What to learn from?}\\
+Presentation at the Challenger 150 conference, Imperial College / Natural History Museum / Royal Geographical Society, London, Sep 2022
+
 \item[--] \textit{Physically constrained data-driven approaches in physical oceanography}\\
 Presentation at the CORE research symposium, HKUST (online), Hong Kong, Jan 2022
 
-\item[--] \textit{Ocean mesoscale eddy redisdence time-scale and its control on the global overturning circulation}\\
+\item[--] \textit{Ocean mesoscale eddy residence time-scale and its control on the global overturning circulation}\\
 Seminar at Earth Systems Science, CUHK, Hong Kong, Sep 2021
 
 \item[--] \textit{On constraining the mesosacle eddy energy residence time-scale}\\
@@ -384,40 +405,49 @@ of Mathematics, University of Edinburgh)
 %-----------------------------------------------------------------
 \subsection*{Research mentoring}
 
-\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}llr}
-  Gautam KUMAR            & PDRA  & Baroclinic instability            & Mar 2021 -- now\\
+\begin{tabularx}{\textwidth}{XXX}
+  Huanhuan WANG           & PDRA  & Sep 2022 -- now\\
+  Gautam KUMAR            & PDRA  & Mar 2021 -- Sep 2022\\
   \\
-  Dan BARTLEY             & MPhil & Boundary layer flows              & Sep 22 -- now\\
-  YAN Feier               & PhD   & Machine learning                  & Feb 21 -- now\\
-  NA Yongsu               & PhD   & State estimation                  & Sep 20 -- now\\
-  RUAN Xi                 & PhD   & BGC focused ocean modelling       & Sep 20 -- now\\
-  LIU Yongqi              & MPhil & Parameterisations                 & Sep 20 -- Aug 22\\
-  LEE Han Seul            & PhD   & Dynamics based ocean modelling    & Sep 19 -- now\\
-  \\
-\end{tabular*}
+\end{tabularx}
 
-\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}llr}
-  Dan BARTLEY             & RA    &  & Feb 22 -- now\\
-  Chinmayee MALLICK       & RA    &  & Apr 20 -- Mar 21\\
-  Floriane Oc\'eane SUDRE & RA    &  & Mar 20 -- Aug 20\\
+\begin{tabularx}{\textwidth}{XXX}
+  Dan BARTLEY             & MPhil & Sep 2022 -- now\\
+  Kayla KEE               & MPhil & Sep 2022 -- now\\
+  YAN Feier               & PhD   & Feb 2021 -- now\\
+  NA Yongsu               & PhD   & Sep 2020 -- now\\
+  RUAN Xi                 & PhD   & Sep 2020 -- now\\
+  LIU Yongqi              & MPhil & Sep 2020 -- Aug 2022\\
+  LEE Han Seul            & PhD   & Sep 2019 -- now\\
   \\
-  DONG Zipei              & MSc               & Informaton entropy       & Sep 21 -- Dec 21\\
-  JIANG Jinxiao           & MSc               & Machine learning methods & Sep 20 -- May 21\\
-  Ellie ONG               & Visiting scholar  & Baroclinic lifecycles    & Oct 20 -- Jan 21\\
-  RUAN Xi                 & MSc               & NPZ model                & Feb 20 -- Jul 20\\
-  LEE Han Seul            & MPhys (at Oxford) &                          & Jan 17 -- Sep 17\\
+\end{tabularx}
+
+\begin{tabularx}{\textwidth}{XXX}
+  Dan BARTLEY             & RA    & Feb 2022 -- Jul 2022\\
+  Chinmayee MALLICK       & RA    & Apr 2020 -- Mar 2021\\
+  Floriane Oc\'eane SUDRE & RA    & Mar 2020 -- Aug 2020\\
   \\
-  Matthew FONG            & BSc (UROP)      & PT symmetry in shear flows      & Feb 22 -- Jun 22\\
-  Tim DU                  & BSc (FYP)       & Kalman filters                  & Sep 21 -- May 22\\
-  Anastasia LEUNG         & BSc (UROP)      & Statistical mechanics models of & Jul 21 -- Sep 21\\
-                          &                 & phase transitions               & \\
-  Rachel TSOI             & BSc (FYP)       & Models of the Hadley cells      & Sep 20 -- May 21\\
-  Jolie NG                & BSc (FYP)       & Models of El-Ni\~no             & Sep 20 -- May 21\\
-  Nick KANG               & BSc (UROP)      & Chaotic mixing                  & Jul 20 -- Sep 20\\
-  Haruki SAEGUSA          & BSc (UROP)      & Chaotic mixing                  & Jun 21 -- Jan 22\\
-                          & BSc (UG helper) &                                 & Sep 20 -- Sep 20\\
-  Kathryn CHOW            & BSc (Capstone)  & BGC models                      & Feb 20 -- Jul 20\\
-\end{tabular*}
+\end{tabularx}
+
+\begin{tabularx}{\textwidth}{XXX}
+  DONG Zipei        & MSc               & Sep 2020 -- May 2021\\
+  JIANG Jinxiao     & MSc               & Sep 2020 -- May 2021\\
+  Ellie ONG         & Visiting scholar  & Oct 2020 -- Jan 2021\\
+  RUAN Xi           & MSc               & Feb 2020 -- Jul 2020\\
+  \\
+\end{tabularx}
+  
+\begin{tabularx}{\textwidth}{XXX}
+  Tim DU                  & BSc (FYP)             & Sep 2021 -- May 2022\\
+  Anastasia LEUNG         & BSc (UROP)            & Jul 2021 -- Sep 2021\\
+  Rachel TSOI             & BSc (FYP)             & Sep 2020 -- May 2021\\
+  Jolie NG                & BSc (FYP)             & Sep 2020 -- May 2021\\
+  Nick KANG               & BSc (UROP)            & Jul 2020 -- Sep 2020\\
+  Haruki SAEGUSA          & BSc (UROP, UG helper) & Jul 2020 -- Sep 2020\\
+                          &                       & Jun 2021 -- Jan 2022\\
+  Kathryn CHOW            & BSc (Capstone)        & Feb 2020 -- Jul 2020\\
+  \\
+\end{tabularx}
 
 %-----------------------------------------------------------------
 \subsection*{Hong Kong University of Science and Technology (2019 to date)}
@@ -425,6 +455,8 @@ of Mathematics, University of Edinburgh)
 \item Instructor (I), with rough estimate of
 student numbers
 \begin{itemize}
+  \item[22/23:] Descriptive Physical Oceanography (2nd year, I, 25), Data
+  Analysis in Ocean Science (3rd/4th year, I, 20), Physical Oceanography (3rd year, I, 10)
   \item[21/22:] Descriptive Physical Oceanography (2nd year, I, 25), Data
   Analysis in Ocean Science, (3rd/4th year, I, 20)
   \item[20/21:] Postgraduate Seminar (PG, Co-I, 40), Global Climate Change (3rd
