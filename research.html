@@ -24,7 +24,17 @@
     <nav class="w3-sidebar w3-collapse w3-light-grey" style="z-index:3;width:250px;" id="mySidebar"><br>
       <div class="w3-container">
         <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu"><i class="fa fa-remove"></i></a>
-        <center><img src="./pics/animals/turnip_sleeping.jpg" style="width:70%;" class="w3-round"></center>
+                <center>
+          <script language="JavaScript">
+            <!-- 
+              var pictures = ['turnip_sleeping.jpg', 'fafa_uncle.jpg',
+                              'miffy_glasses.jpeg', 'miffy_learn.jpg',
+                              ];
+              var picture = pictures[Math.floor(Math.random() * pictures.length)];
+              document.write('<img src="./pics/animals/' + picture + '" style="width:70%;" class="w3-round">');
+            // -->
+          </script>
+        </center>
         <br>
         <h4><b>Julian Mak</b></h4>
         <p class="w3-text-grey">Fluid dynamicist</p>
@@ -60,7 +70,15 @@
         
       <!-- header for small screen -->
       <header>
-        <img src="./pics/animals/turnip_sleeping.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large">
+        <script language="JavaScript">
+            <!-- 
+              var pictures = ['turnip_sleeping.jpg', 'fafa_uncle.jpg',
+                              'miffy_glasses.jpeg', 'miffy_learn.jpg',
+                              ];
+              var picture = pictures[Math.floor(Math.random() * pictures.length)];
+              document.write('<img src="./pics/animals/' + picture + '" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large">');
+            // -->
+          </script>
         <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
       </header>
       
@@ -69,19 +87,13 @@
         <h3><b>Research overview</b></h3>
             
         <p> 
-          I am generally interested in fluid dynamics and rotating stratified
-          dynamics, motivated by geophysical and astrophysical systems (mostly
-          focusing on the ocean). I employ a variety of computational and
-          mathematical methods to tackle associated problems. Areas I have
-          worked on and/or are particularly interested in are:
+          I am generally interested in fluid dynamics and rotating stratified dynamics, motivated by geophysical and astrophysical systems (mostly focusing on the ocean). I employ a variety of computational and mathematical methods to tackle associated problems. Areas I have worked on and/or are particularly interested in are:
           <ul>
             <li>
-              Wave/eddy-mean flow interactions (global ocean circulation, eddy
-              parameterisation)
+              Wave/eddy-mean flow interactions (global ocean circulation, eddy parameterisation)
             </li>
             <li>
-              Ocean modelling (General Circulation Model and/or simplified
-              models)
+              Ocean modelling (General Circulation Model and/or simplified models)
             </li>
             <li>
               Application of inverse methods
@@ -96,15 +108,7 @@
         </p>
         
         <p>
-          Numerical models play a very large role in my research though I am
-          relatively agnostic about which models to use (the science normally
-          suggests one over the other). I go from bespoke small-scale models
-          (largely in MATLAB and Python) to global circulation models (<a
-          href="https://www.nemo-ocean.eu/" targe="_blank"
-          class="bodylink">NEMO</a> and <a
-          href="https://github.com/MITgcm/MITgcm" target="_blank"
-          class="bodylink">MITgcm</a>). The animation below is a sample
-          generated from NEMO (UNAGI, 10km resolution, beta plane channel).
+          Numerical models play a very large role in my research though I am relatively agnostic about which models to use (the science normally suggests one over the other). I go from bespoke small-scale models (largely in MATLAB and Python) to global circulation models (<a href="https://www.nemo-ocean.eu/" targe="_blank" class="bodylink">NEMO</a> and <a href="https://github.com/MITgcm/MITgcm" target="_blank" class="bodylink">MITgcm</a>). The animation below is a sample generated from NEMO (UNAGI, 10km resolution, beta plane channel).
           <br>
           <center>
             <video style="width:100%" frameborder="0" controls>
@@ -112,8 +116,7 @@
             </video>
           </center>
           <br>
-          Please go to the <a href="https://jmak-omfg.github.io/"
-          target="_blank" class="bodylink">GROUP WEBPAGE</a> for more.
+          Please go to the <a href="https://jmak-omfg.github.io/" target="_blank" class="bodylink">GROUP WEBPAGE</a> for more.
         </p>
           
       </div>
